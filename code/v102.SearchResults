@@ -1,0 +1,19 @@
+---- AVI_ENCODE_VIDEO_BUFFER_NO Matches (18 in 5 files) ----
+Avi_encoder_app.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):INT32U time_stamp_buffer[AVI_ENCODE_VIDEO_BUFFER_NO] = {0};
+Avi_encoder_app.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):	for(i=0; i<AVI_ENCODE_VIDEO_BUFFER_NO; i++)
+Avi_encoder_app.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):		g_video_index = AVI_ENCODE_VIDEO_BUFFER_NO;
+Avi_encoder_app.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):	buffer_addr = (INT32U) gp_malloc_align(AVI_ENCODE_VIDEO_BUFFER_NO * (AVI_ENCODE_VIDEO_BUFFER_SIZE + 16), 32);
+Avi_encoder_app.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):	for(i=0; i<AVI_ENCODE_VIDEO_BUFFER_NO; i++)
+Avi_encoder_app.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):	for(i=0; i<AVI_ENCODE_VIDEO_BUFFER_NO; i++)
+Avi_encoder_app.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):	for(i = 0; i<AVI_ENCODE_VIDEO_BUFFER_NO; i++)
+Avi_encoder_app.h (e:\prj_65\v003\v102\application\task_avi_encoder\inc):    AVIPACKER_FRAME_INFO  video_encode_addr[AVI_ENCODE_VIDEO_BUFFER_NO]; //video encode buffer
+Avi_encoder_app.h (e:\prj_65\v003\v102\application\task_avi_encoder\inc):extern INT32U time_stamp_buffer[AVI_ENCODE_VIDEO_BUFFER_NO];
+Avi_encoder_scaler_jpeg.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):					for(i=0; i<AVI_ENCODE_VIDEO_BUFFER_NO; i++) {
+Avi_encoder_scaler_jpeg.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):					if(i==AVI_ENCODE_VIDEO_BUFFER_NO) {
+Avi_encoder_scaler_jpeg.h (e:\prj_65\v003\v102\application\task_avi_encoder\inc):#define AVI_ENCODE_VIDEO_BUFFER_NO		8//10//2	//jpeg encode use buffer number
+Avi_encoder_state.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):void *usbwebcam_frame_q_stack[AVI_ENCODE_VIDEO_BUFFER_NO];
+Avi_encoder_state.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):    usbwebcam_frame_q = OSQCreate(usbwebcam_frame_q_stack, AVI_ENCODE_VIDEO_BUFFER_NO);
+Avi_encoder_state.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):			for(nRet = 0; nRet<AVI_ENCODE_VIDEO_BUFFER_NO; nRet++)
+Avi_encoder_state.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):			for(i=0; i<AVI_ENCODE_VIDEO_BUFFER_NO; i++) {
+Avi_encoder_state.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):			for(i=0; i<AVI_ENCODE_VIDEO_BUFFER_NO; i++) {
+Avi_encoder_state.c (e:\prj_65\v003\v102\application\task_avi_encoder\src):			for(i=0; i<(AVI_ENCODE_VIDEO_BUFFER_NO-1); i++) {
